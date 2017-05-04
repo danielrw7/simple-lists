@@ -103,7 +103,7 @@ $(function() {
 
 
   $('[name=list]').closest('form').submit(function() {
-    // location.hash = $(this).find(':input').val()
+    location.hash = $(this).find(':input').val()
     return false
   })
   $('[name=add]').closest('form').submit(function() {
